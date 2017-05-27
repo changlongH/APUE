@@ -2,7 +2,7 @@
 Webbench 是一个古老而著名的网站压力测试工具，简单而实用。如果你不清楚你的网站能承受多大的压力，或者你想分析对比两个网站的性能，webbench 再好用不过了.
 
 ## 首先须要了解几个函数
-- ###[getopt_long](http://man7.org/linux/man-pages/man3/getopt.3.html)   其实就是一个解析命令行参数的函数，如果翻墙了可以直接查看，或者用man查看详情。
+- ### [getopt_long](http://man7.org/linux/man-pages/man3/getopt.3.html)   其实就是一个解析命令行参数的函数，如果翻墙了可以直接查看，或者用man查看详情。
 ```c
 static const struct option long_options[]=
 {

@@ -30,7 +30,8 @@ while((opt=getopt_long(argc,argv,"912Vfrt:p:c:?h",long_options,&options_index))!
 
 返回值`opt`是短参数例如-t 300 `opt = t, optarg=300` `optarg`在头文件中定义。`optind`指向下一个解析`argv`的下标。
 
-- ### Socket 这个不用说了吧
+- ### Socket 这个不懂必须要翻书去。
+`send()`没有完成，还有数据没发送，而调用了`closesocket()` 采用`shutdown()`从容关闭，即发送完成之后在关闭
 
 - ### [fork](http://man7.org/linux/man-pages/man2/fork.2.html)    
 fork通常作为一个函数被调用。这个函数会有两次返回，将子进程的PID返回给父进程，0返回给子进程。实际上，子进程总可以查询自己的PPID来知道自己的父进程是谁，这样，一对父进程和子进程就可以随时查询对方。

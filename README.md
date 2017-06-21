@@ -13,7 +13,6 @@
 
 - [Tinyhttpd ](https://github.com/EZLippi/Tinyhttpd)
     tinyhttpd 是一个不到 500 行的超轻量型 Http Server，用来学习非常不错，可以帮助我们真正理解服务器程序的本质。
->>>>>>> 557761b23f55c1bb29355a7113118b0ccc0a1c53
 
 ## 4. 配置相关
 - git配置

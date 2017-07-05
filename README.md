@@ -15,23 +15,7 @@
     tinyhttpd 是一个不到 500 行的超轻量型 Http Server，用来学习非常不错，可以帮助我们真正理解服务器程序的本质。
 
 ## 4. 配置相关
-- git配置
-- 1. 使用默认颜色，配置如下：
+- [git配置](https://github.com/changlongH/APUE/blob/master/config_awes/git.md)
 
-git config --global color.diff auto
+- [tmux配置](https://github.com/changlongH/APUE/blob/master/config_awes/tmux.md)
 
-git config --global color.status auto
-
-git config --global color.branch auto
-
-- 2. git alias设置
-
-git config --global alias.st status
-
-git config --global alias.co checkout
-
-git config --global alias.ci commit
-
-git config --global alias.df diff
-
-git config --global alias.br branch

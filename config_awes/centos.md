@@ -28,3 +28,9 @@
 2. `gitconfig` `git`颜色 和 `git`自动补全
 3. tig插件
 
+## 系统python2.7 需要安装python3.5 ##
+- pip安装虚拟环境(pip 9.x.x) virtualen
+- 先安装相关依赖避免安装python3的时候报错
+- 下载安装python3.5 安装到`/user/locale/`目录下
+- 创建虚拟环境`/env/env3.6`
+- 添加快捷键`bashrc`打开虚拟环境

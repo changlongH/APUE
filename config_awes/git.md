@@ -42,3 +42,13 @@
 -- `#feature xxxx`
 
 -- `#bugfix xxx` 
+
+
+- git 自动补全命令文件 `git-completion.bash`
+
+在 ~/.bashrc 中写入执行这个文件
+`if [ -f xxx/git-completion.bash]; then
+    . .git-completion.bash
+ endif`
+
+- git tig

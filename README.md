@@ -19,5 +19,5 @@
 
 - [tmux配置](https://github.com/changlongH/APUE/blob/master/config_awes/tmux.md)
 
-- [linux config]()
+- [linux config](https://github.com/changlongH/APUE/blob/dev/config_awes/linux.md)
 

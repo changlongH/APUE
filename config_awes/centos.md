@@ -24,6 +24,10 @@
 
 - `sudo yum install git` 安装配置git
 
+- ulimit -c 打开core dump
+
+- sestatus 查看是否开启SELinux
+
 1. 配置`.vimrc`
 2. `gitconfig` `git`颜色 和 `git`自动补全
 3. tig插件
@@ -34,3 +38,4 @@
 - 下载安装python3.5 安装到`/user/locale/`目录下
 - 创建虚拟环境`/env/env3.6`
 - 添加快捷键`bashrc`打开虚拟环境
+

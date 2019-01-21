@@ -15,9 +15,9 @@
 
 6. git config --global alias.ci commit
 
-7. git config --global alias.df diff
+7. git config --global alias.di diff
 
-8. git config --global alias.br bran
+8. git config --global alias.br branch
 
 9. git config user.name "程序员"
 
